@@ -26,4 +26,4 @@ jobs:
         tags: bsandeep137/mynextapp:latest
     
     - name: Verify pushed image
-      uses: docker pull bsandeep137/mynextapp:latest
+      run: docker pull bsandeep137/mynextapp:latest
