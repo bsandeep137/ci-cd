@@ -40,7 +40,4 @@ jobs:
           sudo docker rm mynextapp || true
           sudo docker run -d --name mynextapp -p 3005:3000 bsandeep137/mynextapp:latest
 
-
-
-
           
